@@ -1,0 +1,132 @@
+.page-login,
+.page-signup {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page-box {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 8px rgba(0,0,0, .2);
+    border-radius: 8px;
+    padding: 16px 0;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1200;
+}
+
+.main-body {
+    padding: 80px 0 24px;
+    min-height: calc(100vh - 56px);
+}
+
+.navbar-nav .dropdown-item {
+    padding: 0;
+}
+
+.page-header {
+    margin-bottom: 24px;
+}
+
+.card-table {
+    overflow: auto;
+}
+
+.card-table tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.card-table tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.card-table tr:last-child th:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.card-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.card-table tbody tr:last-child th, .card-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.card-table .table {
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 16px;
+}
+
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.1);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-card {
+    overflow: hidden;
+    flex-direction: row;
+    min-height: 260px;
+}
+
+.book-wrap {
+    background-color: #f1f1f1;
+    padding: 16px;
+    width: 200px;
+}
+
+.book-img {
+    width: 100%;
+}
+
+.book-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.book-desc-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.img-holder {
+    max-width: 400px;
+}
+
+.img-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: left top;
+}
+
+.operation-wrap {
+    max-width: 600px;
+}
